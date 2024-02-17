@@ -1,6 +1,7 @@
 # Install ApE on Linux  
 
-by Glen Ernstrom
+by Glen Ernstrom  
+
 last update: 2024-02-17
 
 Here is a guide to get ApE up and running on Linux. I doubt I covered all 
