@@ -7,13 +7,13 @@ last update: 2024-02-17
 Here is a guide to get ApE up and running on Linux. I doubt I covered all 
 possible scenarios, but I have tested ApE on the latest versions of Pop\_OS! (an
 Unbuntu variant), Fedora, Arch, and Debian, in the GNOME desktop environment, 
-and it works great!
+and it works great! Wayne's README that comes with his .zip ApE download may be sufficient for you, but here is a bit more detail that I found worked for me.
 
 I have ApE running on NixOS but I still need to tweak the configuration file to 
 get the ApE's desktop launcher to appear in the GNOME application launcher and 
 for ApE to automatically find the 'Accessory Files' file. In Nix, I can run 
 ApE with ./ApE.tcl with ApE saved to a nix store, but when it launches it asks 
-for the'Accessory Files' folder which I can direct to and it launches and runs 
+for the 'Accessory Files' folder which I can direct to and it launches and runs 
 perfectly. I'll provide a derivative.nix file in a separate file once I figure 
 it out.
   
@@ -42,8 +42,8 @@ it out.
      You should see the first launch splash screen and then the ApE editor 
      window.
      
-  5. You can make ApE.tcl executable: (e.g. with chmod +x ApE.tcl) then, then,
-     in the same directory as ApE.tcl launch from the command line with
+  5. You can make ApE.tcl executable: (e.g. with chmod +x ApE.tcl) then,
+     in the same directory as ApE.tcl, launch from the command line with
      ./ApE.tcl. If this does not work go to next step and try again.
      
   6. To launch from the command line with ./ApE.tcl, you may need to make a 
@@ -131,12 +131,4 @@ So that when you click on a .ape file it will launch ApE.
          sudo update-desktop-database ~/.local/share/applications/
          
   5. Usually that does it! You should see ApE and its beautiful icon in your 
-     application launcher. You may need to restart or logout and then login to 
-     see the icon appear in your application launcher.        
-     
-     
-
-  
-
-     
- 
+     application launcher. You may need to restart or logout and then login to     see the icon appear in your application launcher.        
