@@ -6,7 +6,7 @@ last update: 2024-02-17
 
 Here is a guide to get ApE up and running on Linux. I doubt I covered all 
 possible scenarios, but I have tested ApE on the latest versions of Pop\_OS! (an
-Unbuntu variant), Fedora, Arch, and Debian, in the GNOME desktop environment, 
+Ubuntu variant), Fedora, Arch, and Debian, in the GNOME desktop environment, 
 and it works great! Wayne's README that comes with his .zip ApE download may be sufficient for you, but here is a bit more detail that I found worked for me.
 
 I have ApE running on NixOS but I still need to tweak the configuration file to 
