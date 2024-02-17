@@ -20,8 +20,7 @@ it out.
 ## Basic setup
   
   1. [Download ApE]
-  (https://jorgensen.biology.utah.edu/wayned/ape/Download/Linux/ \
-  ApE_linux_current.zip)
+  (https://jorgensen.biology.utah.edu/wayned/ape/Download/Linux/ApE_linux_current.zip)
   
   2. Extract the file in a convenient location (e.g. you can create a folder
      called "Applications" in your home directory ~/Applications) For this 
@@ -31,10 +30,9 @@ it out.
   3. Install tk8.6 with root privieleges for your flavor of Linux
   
      - For Debian/Ubuntu based Linux: $ sudo apt install tk8.6
-     - For Arch/Endeavor: sudo pacman -S tk
-     - For Fedora/Red Hat: sudo dnf install tk
-     - Working a derivation for NixOS. It can launch but I don't have it fully
-       optimized yet.
+     - For Arch/Endeavor: $ sudo pacman -S tk
+     - For Fedora/Red Hat:$ sudo dnf install tk
+     - Working on a derivation for NixOS. It can launch but I don't have it fully optimized yet. If you know of one, please share! 
        
      It is possible the latest version of tk is already installed.
      
