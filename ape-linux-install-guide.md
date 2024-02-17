@@ -79,8 +79,8 @@ standard.
          Name=ApE  
          Comment=A plasmid Editor  
          GenericName=DNA Editor  
-         Icon=your-absolute-path-to-the-ApE_icon.png-file* 
-         Exec="your-absolute-path-to-the-ApE.tcl"* 
+         Icon=your-absolute-path-to-the-ApE_icon.png-file 
+         Exec="your-absolute-path-to-the-ApE.tcl" 
          MimeType=application/ape  
          Categories=Science;Biology  
 
